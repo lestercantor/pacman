@@ -1,0 +1,19 @@
+﻿  Pacman.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\vector(1706,1): warning C4251: 'std::vector<S2D::Input::Keys,std::allocator<_Ty>>::_Mypair': class 'std::_Compressed_pair<std::allocator<_Ty>,std::_Vector_val<std::_Simple_types<_Ty>>,true>' needs to have dll-interface to be used by clients of class 'std::vector<S2D::Input::Keys,std::allocator<_Ty>>'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\vector(1706,1): warning C4251:         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\vector(1706,1): warning C4251:         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\vector(1706,1): warning C4251:             _Ty=S2D::Input::Keys
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\vector(1706,1): warning C4251:         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\vector(1706): message : see declaration of 'std::_Compressed_pair<std::allocator<_Ty>,std::_Vector_val<std::_Simple_types<_Ty>>,true>'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\vector(1706): message :         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\vector(1706): message :         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\vector(1706): message :             _Ty=S2D::Input::Keys
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\vector(1706): message :         ]
+C:\Users\leste\OneDrive - Staffordshire University\OneDrive_2019-10-10\Pacman\Pacman\S2D\Input.h(108): message : see reference to class template instantiation 'std::vector<S2D::Input::Keys,std::allocator<_Ty>>' being compiled
+C:\Users\leste\OneDrive - Staffordshire University\OneDrive_2019-10-10\Pacman\Pacman\S2D\Input.h(108): message :         with
+C:\Users\leste\OneDrive - Staffordshire University\OneDrive_2019-10-10\Pacman\Pacman\S2D\Input.h(108): message :         [
+C:\Users\leste\OneDrive - Staffordshire University\OneDrive_2019-10-10\Pacman\Pacman\S2D\Input.h(108): message :             _Ty=S2D::Input::Keys
+C:\Users\leste\OneDrive - Staffordshire University\OneDrive_2019-10-10\Pacman\Pacman\S2D\Input.h(108): message :         ]
+C:\Users\leste\OneDrive - Staffordshire University\OneDrive_2019-10-10\Pacman\Pacman\Pacman.cpp(103,26): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\leste\OneDrive - Staffordshire University\OneDrive_2019-10-10\Pacman\Pacman\Pacman.cpp(121,26): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  Pacman.vcxproj -> C:\Users\leste\OneDrive - Staffordshire University\OneDrive_2019-10-10\Pacman\Debug\Pacman.exe

@@ -1,0 +1,60 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(452,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Pacman-DESKTOP-PF8I5CV.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Pacman.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\vector(1706,1): warning C4251: 'std::vector<S2D::Input::Keys,std::allocator<_Ty>>::_Mypair': class 'std::_Compressed_pair<std::allocator<_Ty>,std::_Vector_val<std::_Simple_types<_Ty>>,true>' needs to have dll-interface to be used by clients of class 'std::vector<S2D::Input::Keys,std::allocator<_Ty>>'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\vector(1706,1): warning C4251:         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\vector(1706,1): warning C4251:         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\vector(1706,1): warning C4251:             _Ty=S2D::Input::Keys
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\vector(1706,1): warning C4251:         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\vector(1706): message : see declaration of 'std::_Compressed_pair<std::allocator<_Ty>,std::_Vector_val<std::_Simple_types<_Ty>>,true>'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\vector(1706): message :         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\vector(1706): message :         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\vector(1706): message :             _Ty=S2D::Input::Keys
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\vector(1706): message :         ]
+C:\Users\leste\OneDrive - Staffordshire University\GitHub\OneDrive_2019-10-10\Pacman\Pacman\S2D\Input.h(108): message : see reference to class template instantiation 'std::vector<S2D::Input::Keys,std::allocator<_Ty>>' being compiled
+C:\Users\leste\OneDrive - Staffordshire University\GitHub\OneDrive_2019-10-10\Pacman\Pacman\S2D\Input.h(108): message :         with
+C:\Users\leste\OneDrive - Staffordshire University\GitHub\OneDrive_2019-10-10\Pacman\Pacman\S2D\Input.h(108): message :         [
+C:\Users\leste\OneDrive - Staffordshire University\GitHub\OneDrive_2019-10-10\Pacman\Pacman\S2D\Input.h(108): message :             _Ty=S2D::Input::Keys
+C:\Users\leste\OneDrive - Staffordshire University\GitHub\OneDrive_2019-10-10\Pacman\Pacman\S2D\Input.h(108): message :         ]
+C:\Users\leste\OneDrive - Staffordshire University\GitHub\OneDrive_2019-10-10\Pacman\Pacman\Pacman.cpp(10,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\leste\OneDrive - Staffordshire University\GitHub\OneDrive_2019-10-10\Pacman\Pacman\Pacman.cpp(81,19): warning C4154: deletion of an array expression; conversion to pointer supplied
+C:\Users\leste\OneDrive - Staffordshire University\GitHub\OneDrive_2019-10-10\Pacman\Pacman\Pacman.cpp(82,18): warning C4154: deletion of an array expression; conversion to pointer supplied
+C:\Users\leste\OneDrive - Staffordshire University\GitHub\OneDrive_2019-10-10\Pacman\Pacman\Pacman.cpp(86,17): warning C4156: deletion of an array expression without using the array form of 'delete'; array form substituted
+C:\Users\leste\OneDrive - Staffordshire University\GitHub\OneDrive_2019-10-10\Pacman\Pacman\Pacman.cpp(86,17): warning C4154: deletion of an array expression; conversion to pointer supplied
+C:\Users\leste\OneDrive - Staffordshire University\GitHub\OneDrive_2019-10-10\Pacman\Pacman\Pacman.cpp(88,16): warning C4156: deletion of an array expression without using the array form of 'delete'; array form substituted
+C:\Users\leste\OneDrive - Staffordshire University\GitHub\OneDrive_2019-10-10\Pacman\Pacman\Pacman.cpp(88,16): warning C4154: deletion of an array expression; conversion to pointer supplied
+C:\Users\leste\OneDrive - Staffordshire University\GitHub\OneDrive_2019-10-10\Pacman\Pacman\Pacman.cpp(115,123): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\leste\OneDrive - Staffordshire University\GitHub\OneDrive_2019-10-10\Pacman\Pacman\Pacman.cpp(115,47): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\leste\OneDrive - Staffordshire University\GitHub\OneDrive_2019-10-10\Pacman\Pacman\Pacman.cpp(121,114): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\leste\OneDrive - Staffordshire University\GitHub\OneDrive_2019-10-10\Pacman\Pacman\Pacman.cpp(121,42): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\leste\OneDrive - Staffordshire University\GitHub\OneDrive_2019-10-10\Pacman\Pacman\Pacman.cpp(129,121): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\leste\OneDrive - Staffordshire University\GitHub\OneDrive_2019-10-10\Pacman\Pacman\Pacman.cpp(129,46): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\leste\OneDrive - Staffordshire University\GitHub\OneDrive_2019-10-10\Pacman\Pacman\Pacman.cpp(264,115): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\leste\OneDrive - Staffordshire University\GitHub\OneDrive_2019-10-10\Pacman\Pacman\Pacman.cpp(264,43): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\leste\OneDrive - Staffordshire University\GitHub\OneDrive_2019-10-10\Pacman\Pacman\Pacman.cpp(290,26): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\leste\OneDrive - Staffordshire University\GitHub\OneDrive_2019-10-10\Pacman\Pacman\Pacman.cpp(308,26): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\leste\OneDrive - Staffordshire University\GitHub\OneDrive_2019-10-10\Pacman\Pacman\Pacman.cpp(323,55): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\leste\OneDrive - Staffordshire University\GitHub\OneDrive_2019-10-10\Pacman\Pacman\Pacman.cpp(324,54): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\leste\OneDrive - Staffordshire University\GitHub\OneDrive_2019-10-10\Pacman\Pacman\Pacman.cpp(338,63): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\leste\OneDrive - Staffordshire University\GitHub\OneDrive_2019-10-10\Pacman\Pacman\Pacman.cpp(339,55): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\leste\OneDrive - Staffordshire University\GitHub\OneDrive_2019-10-10\Pacman\Pacman\Pacman.cpp(365,61): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\leste\OneDrive - Staffordshire University\GitHub\OneDrive_2019-10-10\Pacman\Pacman\Pacman.cpp(372,14): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\leste\OneDrive - Staffordshire University\GitHub\OneDrive_2019-10-10\Pacman\Pacman\Pacman.cpp(374,12): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\leste\OneDrive - Staffordshire University\GitHub\OneDrive_2019-10-10\Pacman\Pacman\Pacman.cpp(376,13): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\leste\OneDrive - Staffordshire University\GitHub\OneDrive_2019-10-10\Pacman\Pacman\Pacman.cpp(378,11): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\leste\OneDrive - Staffordshire University\GitHub\OneDrive_2019-10-10\Pacman\Pacman\Pacman.cpp(383,37): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\leste\OneDrive - Staffordshire University\GitHub\OneDrive_2019-10-10\Pacman\Pacman\Pacman.cpp(384,31): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\leste\OneDrive - Staffordshire University\GitHub\OneDrive_2019-10-10\Pacman\Pacman\Pacman.cpp(385,36): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\leste\OneDrive - Staffordshire University\GitHub\OneDrive_2019-10-10\Pacman\Pacman\Pacman.cpp(386,30): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\leste\OneDrive - Staffordshire University\GitHub\OneDrive_2019-10-10\Pacman\Pacman\Pacman.cpp(398,14): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\leste\OneDrive - Staffordshire University\GitHub\OneDrive_2019-10-10\Pacman\Pacman\Pacman.cpp(400,12): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\leste\OneDrive - Staffordshire University\GitHub\OneDrive_2019-10-10\Pacman\Pacman\Pacman.cpp(402,13): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\leste\OneDrive - Staffordshire University\GitHub\OneDrive_2019-10-10\Pacman\Pacman\Pacman.cpp(404,11): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\leste\OneDrive - Staffordshire University\GitHub\OneDrive_2019-10-10\Pacman\Pacman\Pacman.cpp(409,38): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\leste\OneDrive - Staffordshire University\GitHub\OneDrive_2019-10-10\Pacman\Pacman\Pacman.cpp(410,32): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\leste\OneDrive - Staffordshire University\GitHub\OneDrive_2019-10-10\Pacman\Pacman\Pacman.cpp(411,37): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\leste\OneDrive - Staffordshire University\GitHub\OneDrive_2019-10-10\Pacman\Pacman\Pacman.cpp(412,31): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\leste\OneDrive - Staffordshire University\GitHub\OneDrive_2019-10-10\Pacman\Pacman\Pacman.cpp(423,33): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\leste\OneDrive - Staffordshire University\GitHub\OneDrive_2019-10-10\Pacman\Pacman\Pacman.cpp(424,27): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\leste\OneDrive - Staffordshire University\GitHub\OneDrive_2019-10-10\Pacman\Pacman\Pacman.cpp(425,32): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\leste\OneDrive - Staffordshire University\GitHub\OneDrive_2019-10-10\Pacman\Pacman\Pacman.cpp(426,26): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  Pacman.vcxproj -> C:\Users\leste\OneDrive - Staffordshire University\GitHub\OneDrive_2019-10-10\Pacman\Debug\Pacman.exe
